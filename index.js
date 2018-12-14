@@ -10,6 +10,7 @@ function alert() {
 }
 
 function unexceptionHandler(e) {
+    alert();
     console.log(e);
     this.socket && this.socket.destroy();
 }
@@ -39,7 +40,7 @@ function ping(host) {
 let counter = 1;
 setInterval(() => {
     process.stdout.write('\x1Bc');
-    console.log(` ${counter++ * 3}s, It still nice...`);
+    console.log(` ${counter++ * 3}s...`);
     webSite.forEach(site => {
         ping(site);
     });

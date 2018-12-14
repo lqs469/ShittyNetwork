@@ -2,6 +2,8 @@
 
 I can't endure the 💩 network anymore! (🙀 when the network breaks down...)
 
+Tips: No mute.
+
 ```js
 npm start [url url...]
 ```
