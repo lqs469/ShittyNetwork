@@ -1,0 +1,14 @@
+{
+    "name": "shittyNetwork",
+    "version": "1.0.0",
+    "description": "How fucking shitty network!",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "lqs469",
+    "license": "MIT",
+    "dependencies": {
+        "play-sound": "^1.1.2"
+    }
+}
